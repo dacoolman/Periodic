@@ -133,7 +133,7 @@ var array = ['A1','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A
 		 'A2','Rb','Sr','Y','Zr','Nb','Mo','Tc','Re','Rh','Pd','Ag','Cd','In','Sn','Sb','Te','I', 'Xe',
 		 'A2','Cs','Ba','Lu','Hf','Ta','W','Re','Bh','Ir','Pt','Au','Hg','Tl','Pb','Bi','Po','At','Rn',
 		 'A2','Fr','Ra','Lr','Rf','Db','Sg','Bh','Hs','Mt','Ds','Rg','Cn','Uut','Fl','Uup','Lv','Uus','Uuo'];
-		 
+//what row loop is on		 
 var verticalcount = 1;
 
 function generatehtml(myarray, divproperties, divcontents, afterspace){
