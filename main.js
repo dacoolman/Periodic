@@ -1,4 +1,3 @@
-//test
 //Listing all elements
 var elements = {
 //blue	
