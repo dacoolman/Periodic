@@ -1,3 +1,4 @@
+//Listing all elements
 var elements = {
 //blue	
 'H' : {number: 1, symbol: 'H', weight: "1.008", color: 'blue'},
