@@ -124,10 +124,8 @@ var elements = {
 'No' : {number: 102, symbol: 'No', weight: "[259.10]", color: 'green'}};
 
 
-
-
-
-array = ['A1','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A',
+//array to hold all elements
+var array = ['A1','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A','A',
 		 'A2','H',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'He',
 		 'A2','Li','Be',0,0,0,0,0,0,0,0,0,0,'B','C','N','O','F','Ne',
 		 'A2','Na','Mg',0,0,0,0,0,0,0,0,0,0,'Al','Si','P','S','Cl','Ar',
