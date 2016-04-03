@@ -1,121 +1,52 @@
-
-
 #wrapper{
-width: 970px;
-height: 480px;
-background-color: #EEEEEE;
-position: relative;
-top: -8px;
-left: -8px;
-color: red;
-
-
+	width: 970px;
+	height: 480px;
+	background-color: #EEEEEE;
+	position: relative;
+	top: -3px;
+	color: red;
+	margin: auto;
 }
-.blank{
-	
-height: 45px;
-width: 45px;
-background-color:#EEEEEE;
-display:inline-block;
-vertical-align: top;
-position:absolute;
-color: black
-	
-	
+
+.block{
+	height: 45px;
+	width: 45px;
+	color: black;	
+	position: absolute;
+	vertical-align: top;
+	display: inline-block;
 }
 
 .count{
-	
-	height: 45px;
-width: 45px;
-background-color:#EEEEEE;
-display:inline-block;
-vertical-align: top;
-position:absolute;
-text-align: center;
-	
-	
+	color: red;
+	line-height: 45px;
+	text-align: center;
 }
 
-.test{height: 42px;
-width: 42px;
-display:inline-block;
-vertical-align: top;
-color: black;
-margin-bottom: 1px;
-margin-right: 1px;
-position:absolute;}
+.element{
+	height: 43px;
+	width: 43px;
+	font-size: 70%;
+	text-align: center;
+	border: solid 1px black;
+}
 
+.letter{
+	font-size: 160%;
+}
 
 .blue{
-	height: 42px;
-width: 42px;
-background-color:#689BFF;
-display:inline-block;
-vertical-align: top;
-border: solid 1px black;
-color: black;
-font-size: 70%;
-text-align: center;
-margin-bottom: 1px;
-margin-right: 1px;
-position:absolute;
-	
-	
+	background-color: #689BFF;
 }
 
-
-.pink{height: 42px;
-width: 42px;
-background-color:#FD9A98;
-display:inline-block;
-vertical-align: top;
-border: solid 1px black;
-color: black;
-font-size: 70%;
-text-align: center;
-margin-bottom: 1px;
-margin-right: 1px;
-position:absolute;
-	
-	
+.pink{
+	background-color: #FD9A98;
 }
 
-.yellow{height: 42px;
-width: 42px;
-background-color:#FECB00;
-display:inline-block;
-vertical-align: top;
-border: solid 1px black;
-color: black;
-font-size: 70%;
-text-align: center;
-margin-bottom: 1px;
-margin-right: 1px;
-position:absolute;
-	
-	
+.yellow{
+	background-color: #FECB00;
 }
 
-.green{height: 42px;
-width: 42px;
-background-color:#1FCA21;
-display:inline-block;
-vertical-align: top;
-border: solid 1px black;
-color: black;
-font-size: 70%;
-text-align: center;
-margin-bottom: 1px;
-margin-right: 1px;
-position:absolute;
-	
-	
+.green{
+	background-color: #1FCA21;
 }
-
-
-.text{
-	position:absolute;
-}
-
-.letter{font-size: 160%;}
