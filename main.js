@@ -30,11 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		var rowOffset = row>7 ? 20: 0;
 		if (Number.isInteger(elementMap[i])) {
 			// Display Number
-			addElement('block count', row*45, column*45 + columnOffset, elementMap[i]);
+			addElement('block heading', row*45, column*45 + columnOffset, elementMap[i]);
 		}	
 		else if (nonElementContent[elementMap[i]]) {
 			// Display NonElement Content
-			addElement('block count', row*45 + rowOffset, column*45 + columnOffset, nonElementContent[elementMap[i]]);
+			addElement('block heading', row*45 + rowOffset, column*45 + columnOffset, nonElementContent[elementMap[i]]);
 		}
 		else if (elementMap[i]!=='SP'){	
 			// Add Element (empty spaces will be ignored)
